@@ -7,7 +7,7 @@ function sortByLength(array) {
       for(let j=i+1;j<array_len;j++){
         if(array[j].length>array[m].length){
           m = j;
-        } else if(array[j].length === array[m].length && array[j].charAt(0) < array[m].charAt(0)){
+        } else if(array[j].length === array[m].length && array[j] < array[m]){
           m = j;
         }
       }
