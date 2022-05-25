@@ -1,3 +1,4 @@
+//https://atcoder.jp/contests/abc042/tasks/arc058_a
 //let lines = require("fs").readFileSync("/dev/stdin", "utf8").split("\n"); //['3 3','dxx','axx','cxx']
 //let score_pr = lines[0].split(' ').map(Number);
 
