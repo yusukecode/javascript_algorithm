@@ -26,3 +26,14 @@ for(i=0;i<=9;i++){
 }
 
 let true_num_len = true_num.length; //一番奥に最大値がある
+
+let str_int;
+
+for(i=0;i<true_num_len;i++){
+    str_int += true_num[true_num_len-1];
+}
+
+Number(str_int);
+
+
+
