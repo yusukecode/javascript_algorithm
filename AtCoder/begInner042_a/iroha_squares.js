@@ -15,7 +15,10 @@ function factirial(k) {
 
 let sc = H + W;
 let all_square = factirial(H+W) / (factirial(H)*factirial(W));
-let sub_square = factirial(A+B) / (factirial(A)*factirial(B));
+let sub_square = (factirial(A+B) / (factirial(A)*factirial(B)));
+
+console.log(all_square);
+console.log(sub_square);
 
 console.log(all_square - sub_square);
 
