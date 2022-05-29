@@ -4,8 +4,7 @@
 //console.log(key_arr); //[ '0', 'B', 'B', '1' ]
 
 let lines = require("fs").readFileSync("/dev/stdin", "utf8");
-lines = lines.join('');
-key_arr = [...lines];
+key_arr = lines.trim().split('');
 tmp = [];
 num = 0;
 for(i=0;i<key_arr.length;i++){
